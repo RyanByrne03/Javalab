@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Java Lab</title>
+	<!-- my CSS  -->
+	<link href="styles-jsdemo.css" rel="stylesheet" >
+	<p id="demo"></p>
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		const d = new Date();
+		document.getElementById("demo").innerHTML = d;
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello and welcome to my Java Lab Page!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name;
+		name = prompt("Enter name","place holder for name");
+		document.write("Hi " + name ); //making use of the variable
+		var emotion;
+		emotion = prompt("How are you feeling today?","place holder for emotion");
+		document.write(" ,you are feeling " + emotion );
+		var number;
+		number = prompt("What's your favourite number?","place holder for number");
+		document.write(" ,you said your favourite number was " + number + " mine is 16, it's my lucky number!");
+		var music;
+		music = prompt("What kind of music do you listen to?","place holder for music");
+		document.write(" ,you like " + music + " music? I listen to alot of genres like rap, rock, pop and a few others.");
+		
+	</script>
+  </head>
+  <body>
+	<p>Don't be so down, come on young homie
+You'll be okay, you'll find real love
+All of the stories, the hero gets lonely
+Now is the time to show what you're made of - Kid Cudi</p>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>
